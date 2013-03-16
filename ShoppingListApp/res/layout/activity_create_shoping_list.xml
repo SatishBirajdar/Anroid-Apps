@@ -1,0 +1,710 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="@string/default_list_name"
+        android:inputType="textCapCharacters" >
+
+        <requestFocus />
+    </EditText>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editText1" >
+
+        <TableLayout
+            android:id="@+id/TableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText11"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText13"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText21"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText23"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText31"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button32"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText33"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText41"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button42"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText43"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button44"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText51"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button52"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText53"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button54"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText61"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button62"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText63"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button64"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText71"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button72"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText73"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button74"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText81"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button82"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText83"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button84"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText91"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button92"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText93"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button94"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText101"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button102"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText103"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/defaultitemqty"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button104"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText111"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button112"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText113"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/defaultitemqty"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button114"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText121"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button122"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText123"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/defaultitemqty"
+                    android:ems="10"
+                    android:inputType="number"
+                    android:text="0" />
+
+                <Button
+                    android:id="@+id/button124"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText131"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button132"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText133"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button134"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText141"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button142"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText143"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button144"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText151"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button152"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText153"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button154"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText161"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button162"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText163"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button164"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText171"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button172"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText173"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button174"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText181"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button182"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText183"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button184"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText191"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button192"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText193"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button194"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/tableRow20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <EditText
+                    android:id="@+id/editText201"
+                    android:layout_width="190dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/default_list_item" />
+
+                <Button
+                    android:id="@+id/button202"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/decrement" />
+
+                <EditText
+                    android:id="@+id/editText203"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:ems="10"
+                    android:hint="@string/defaultitemqty"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/button204"
+                    android:layout_width="40dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/increment" />
+            </TableRow>
+            
+            <LinearLayout
+                android:id="@+id/LinearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/savebutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="74dp"
+                    android:text="@string/savebutton" />
+
+                <Button
+                    android:id="@+id/cancelbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cancelbutton" />
+
+            </LinearLayout>
+        </TableLayout>
+    </ScrollView>
+
+</RelativeLayout>

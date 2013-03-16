@@ -1,0 +1,36 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/plusButton"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:minHeight="60dp"
+            android:minWidth="@dimen/plusbutton"
+            android:text="@string/plussign" />
+
+        <TextView
+            android:id="@+id/createTextView"
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:maxWidth="@dimen/createmaxwidth"
+            android:minWidth="@dimen/createmaxwidth"
+            android:text="@string/createnewlist"
+            android:width="@dimen/createmaxwidth" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/shoppingListTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+</TableLayout>
